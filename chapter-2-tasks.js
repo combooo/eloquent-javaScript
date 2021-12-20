@@ -24,7 +24,7 @@ for(let i = 1; i <= 100; i++) {
 size = 8;
 for(let i = 0; i < size; i++){
     let line = '';
-    for(let j = 0; j < size; j++) {
+    for(let j = 0; j < size-4; j++) {
         line += i%2 === 0 ? ' #' : '# ';
     }
     line += '\n';
